@@ -10,7 +10,7 @@ const Title = () => {
     <div className="title">
       {/* <h1>FireGram</h1> */}
 
-      <nav className="navbar sticky-top navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-light">
         <h1 style={{ color: "#efb6b2" }} className="navbar-brand">
           FireGram
         </h1>
