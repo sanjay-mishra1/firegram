@@ -117,7 +117,11 @@ const LoginForm = () => {
               <div className="form-group col-6">
                 <div className="icheck-material-primary">
                   <input type="checkbox" id="user-checkbox" defaultValue="" />
-                  <label className="login-label" htmlFor="user-checkbox">
+                  <label
+                    className="login-label"
+                    htmlFor="user-checkbox"
+                    style={{ width: "149px", paddingLeft: "30px" }}
+                  >
                     Remember me
                   </label>
                 </div>

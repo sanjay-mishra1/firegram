@@ -5339,13 +5339,14 @@ table.grid td {
   padding-left: 0px;
 }
 [class*="icheck-material"] > label {
-  padding-left: 29px !important;
+  padding-left: 11px !important;
   min-height: 22px;
   line-height: 22px;
   display: inline-block;
   position: relative;
   vertical-align: top;
   margin-bottom: 0;
+  width: 242px;
   font-weight: normal;
   cursor: pointer;
 }

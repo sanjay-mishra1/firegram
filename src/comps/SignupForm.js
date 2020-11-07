@@ -154,12 +154,14 @@ const SignupForm = () => {
                 </div>
               </div>
             </div>
-            <div className="form-group">
-              <div className="icheck-material-primary">
-                <input type="checkbox" id="user-checkbox" checked="" />
-                <label htmlFor="user-checkbox">
-                  I Accept terms &amp; conditions
-                </label>
+            <div className="form-row mr-0 ml-0">
+              <div className="form-group col-6">
+                <div className="icheck-material-primary">
+                  <input type="checkbox" id="user-checkbox" defaultValue="" />
+                  <label htmlFor="user-checkbox">
+                    I Accept terms &amp; conditions
+                  </label>
+                </div>
               </div>
             </div>
             <button
