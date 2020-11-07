@@ -5,14 +5,14 @@ import "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
-  apiKey: "AIzaSyDPjahrQCUyVnHNJfYCj1JQDOfhBGLjdyo",
-  authDomain: "firegram-70bc9.firebaseapp.com",
-  databaseURL: "https://firegram-70bc9.firebaseio.com",
-  projectId: "firegram-70bc9",
-  storageBucket: "firegram-70bc9.appspot.com",
-  messagingSenderId: "98198987587",
-  appId: "1:98198987587:web:077d91051b6deaaf5845f6",
-  measurementId: "G-KVK5KR252Q",
+  apiKey: "<project-api>",
+  authDomain: "<project-name>.firebaseapp.com",
+  databaseURL: "https://<project-name>.firebaseio.com",
+  projectId: "<project-name>",
+  storageBucket: "<project-name>.appspot.com",
+  messagingSenderId: "msgid",
+  appId: "<app-id>",
+  measurementId: "",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
